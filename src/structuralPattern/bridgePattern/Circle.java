@@ -7,8 +7,6 @@ public class Circle extends AbstractShape {
 
     @Override
     public void draw() {
-        System.out.println(
-                "使用[" + color.getColor() + "]画圆圈"
-        );
+        System.out.println("使用[" + color.getColor() + "]画图画");
     }
 }
