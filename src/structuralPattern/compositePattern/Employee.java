@@ -1,6 +1,6 @@
 package structuralPattern.compositePattern;
 
-public class Employee implements Company{
+public class Employee implements People {
 
     private String name;
     private String position;
@@ -14,8 +14,8 @@ public class Employee implements Company{
 
     @Override
     public String getInfo() {
-        return "name:" + name + "\n" +
-                "position:" + position + "\n" +
-                "salary:" + salary + "\n";
+        return "姓名:" + name + "\n" +
+                "职位:" + position + "\n" +
+                "工资:" + salary + "元\n";
     }
 }

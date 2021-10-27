@@ -1,5 +1,5 @@
 package structuralPattern.compositePattern;
 
-public interface Company {
+public interface People {
     public String getInfo();
 }
