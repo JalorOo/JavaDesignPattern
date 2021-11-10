@@ -12,6 +12,6 @@ public class Demo {
                         )
                 )
         );
-        player.handle(4);
+        player.handle(10);
     }
 }
